@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="root">
+      <h1>Sorting visualizer</h1>
+      <div class="nav">
+        <a href="#" class="bubbleSort">Bubble Sort</a>
+        <a href="#" class="selectionSort">Selection Sort</a>
+        <a href="#" class="insertionSort">Insertion Sort</a>
+        <a href="#" class="random">Randomize</a>
+        <label for="range"
+          >Els
+          <input
+            type="range"
+            id="range"
+            class="eln"
+            value="5"
+            min="5"
+            max="300"
+        /></label>
+        <label for="speed"
+          >Speed
+          <input
+            type="range"
+            class="speed"
+            id="speed"
+            min="-1000"
+            max="1"
+            value="-500"
+        /></label>
+      </div>
+      <div class="visual">
+        <div class="el" style="height: 300px;"><h3>300</h3></div>
+        <div class="el" style="height: 503px;"><h3>503</h3></div>
+        <div class="el" style="height: 669px;"><h3>669</h3></div>
+        <div class="el" style="height: 249px;"><h3>249</h3></div>
+        <div class="el" style="height: 171px;"><h3>171</h3></div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
